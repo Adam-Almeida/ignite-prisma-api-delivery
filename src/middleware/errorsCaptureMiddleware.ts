@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from "express";
 
-export function ErrorsCaptureMiddleware(
+export async function ErrorsCaptureMiddleware(
   err: Error,
   request: Request,
   response: Response,
