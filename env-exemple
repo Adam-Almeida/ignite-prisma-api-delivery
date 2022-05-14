@@ -1,0 +1,2 @@
+DATABASE_URL="postgresql://postgres:1234@localhost:5432/postgres?schema=public"
+SECRET_KEY="81cfe098837986ac78539762f5b1b87f"
