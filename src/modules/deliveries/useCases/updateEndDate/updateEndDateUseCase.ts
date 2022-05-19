@@ -7,18 +7,18 @@ interface IUpdateEndDate {
 
 export class UpdateEndDateUseCase {
     async execute({ id_delivery, id_deliveryman }: IUpdateEndDate) {
-        const delivery = await prisma.deliveries.findFirst({
+        const result = await prisma.deliveries.updateMany({
             where: {
                 id: id_delivery,
-                AND:{
-                    id_deliveryman
-                } 
+                id_deliveryman 
+            },
+            data:{
+                end_at: new Date()
             }
         })
-        if (!delivery) {
+        if (!result) {
             throw new Error("Delivery not found.");
         }
-        delivery.end_at = new Date();
-        return delivery;
+        return result;
     };
 }
