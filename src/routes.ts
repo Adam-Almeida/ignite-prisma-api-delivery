@@ -7,7 +7,7 @@ import { FindAllDeliveriesClientController } from "./modules/clients/deliveries/
 import { CreateClientController } from "./modules/clients/useCases/createClient/createClientController";
 import { CreateDeliveryController } from "./modules/deliveries/useCases/createDelivery/createDeliveryController";
 import { FindAllAvailableController } from "./modules/deliveries/useCases/findAllAvailable/findAllAvailableController";
-import { UpdateDeliverymanController } from "./modules/deliveries/useCases/updateDeliveryman/updateDeliverymanController";
+import { UpdateDeliverymanController } from "./modules/deliveries/useCases/findAllAvailable/updateDeliveryman/updateDeliverymanController";
 import { UpdateEndDateController } from "./modules/deliveries/useCases/updateEndDate/updateEndDateController";
 import { FindAllDeliveriesDeliverymanController } from "./modules/deliveryman/deliveries/findAllDeliveriesDeliverymanController";
 import { CreateDeliverymanController } from "./modules/deliveryman/useCases/createDeliveryman/createDeliverymanController";
