@@ -20,10 +20,7 @@
   "name": "ignite-prisma-api-delivery",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Adam-Almeida/ignite-prisma-api-delivery.git"
-  },
+  "repository": "git+https://github.com/Adam-Almeida/ignite-prisma-api-delivery.git",
   "author": " <adamportifolio@gmail.com>",
   "license": "MIT",
   "bugs": {

@@ -5,7 +5,6 @@ interface IPayload{
     sub: string;
 }
 
-
 export async function ensureAuthenticateDeliveryman(
   request: Request,
   response: Response,
